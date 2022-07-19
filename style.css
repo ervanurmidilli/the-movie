@@ -1,0 +1,219 @@
+/* .navigation_bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky; eğer sorun olursa fixed olarak değiştirin*
+  top: 0px;
+  width: 100%;
+}
+.navigation_bar li {
+  float: left;
+  border-right: 1px solid #bbb;
+}*/
+/*
+.navigation_bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navigation_bar li:last-child {
+  border-right: none;
+}
+.navigation_bar li:first-child {
+  background-color: #333;
+}
+.navigation_bar li a:hover:not(.active) {
+  background-color: #111;
+}
+.navigation_bar .active {
+  background-color: #708090;
+}
+*/
+
+/* Add a black background color to the top navigation */
+
+.flex-container {
+  display: flex;
+  background-color: orange;
+  height: 100px;
+  max-width: 1200px;
+  max-height: 300px;
+  margin: auto;
+}
+
+.main {
+  background-color: lightgray;
+  flex: 8;
+}
+.sidebar {
+  background-color: rgb(170, 140, 135);
+  flex: 1;
+  width: 40px;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+.heading {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #333;
+  background-color: #b3c0bb;
+  border-radius: 8px;
+  font-size: 45px;
+  margin: 30px;
+  padding-top: 10px;
+  padding-bottom: 35px;
+  background-color: silver;
+  border-style: solid;
+  border-width: 4px;
+  text-align: center;
+}
+.films-head {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #333;
+  font-size: 37px;
+  margin-left: 20px;
+  margin-bottom: 35px;
+}
+.context-img {
+  margin-left: 15px;
+  border-style: solid;
+  border-width: 3px;
+  height: 160px;
+  width: 130px;
+  margin-bottom: 40px;
+}
+.texting {
+  color: #1e2e28;
+  font: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+.iframe-frag {
+  padding-bottom: 80px;
+  padding-right: 100px;
+}
+.context-bestimg {
+  margin-left: 15px;
+  margin-right: 10px;
+  border-style: solid;
+  border-width: 3px;
+  width: 250;
+  margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  border: none;
+  border-bottom: 2px solid rgb(148, 132, 132);
+}
+input[type="text"]:focus {
+  border: 3px solid rgb(148, 144, 144);
+}
+.hsp-blg1 {
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 8px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+}
+.hsp-blg2 {
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 8px;
+  margin-top: 15px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+}
+.btn-save {
+  background-color: #333;
+  border: 1px solid #333;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 14px;
+  padding: 8px 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.btn-save:hover {
+  background-color: #589e83;
+}
+.form-style-8 {
+  font-family: "Open Sans Condensed", arial, sans;
+  width: 500px;
+  padding: 30px;
+  background: #ffffff;
+  margin: 50px auto;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+.hspblglogin {
+  background: #4d4d4d;
+  text-transform: uppercase;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #180707;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 20px;
+  margin: -30px -30px 30px -30px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+.country {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  display: block;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: transparent;
+  margin-bottom: 10px;
+  font: 16px Arial, Helvetica, sans-serif;
+  height: 45px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  width: 23px;
+  border: solid;
+}
+.film-zl {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
